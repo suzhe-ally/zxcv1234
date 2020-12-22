@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>快递单生成</title>
+        <link rel="stylesheet" href="css/yunda.css"  />
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/yunda.js"></script>
+        
+    </head>
+    <body>
+        <div id="inputNumber">
+            <p>
+                <input id="number" name="number" type="text" placeholder="请输入快递单号" />
+                <p>  <span class="error" id="numberError" style="color: red;"></span></p>
+                <img id="yundaImage" src="">
+            </p>
+            <p>
+                <a id="btOutput" type="button" title="保&nbsp;&nbsp;存 " href="downloadController.do" hidden>下 载</a>
+                <span class="auth_err" id="checkError"></span>
+            </p>
+        </div>
+
+    </body>
+</html>

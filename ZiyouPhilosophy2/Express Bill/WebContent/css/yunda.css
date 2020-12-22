@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+    background-image: url(../images/chunse6.jpg);
+    font-size: 14px;
+}
+
+div{
+    margin-left: 600px;
+    height:30px;
+    width:200px;
+}
+#btOutput{
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: 100px;
+    text-decoration:none;
+    color:black;
+    border-style:solid;
+	border-color:whitesmoke;
+	background-color:orange;
+    border-radius:8px;
+    text-align:center;
+}
